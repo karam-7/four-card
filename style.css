@@ -22,7 +22,7 @@ body{
 
 .info{
     width: 500px;
-    margin-left: 550px;
+    margin-left: 500px;
 }
 
 .info-h1{
@@ -75,26 +75,26 @@ body{
 .info-card{
     border-top: 5px solid hsl(180, 62%, 55%);
     margin-top: 250px;
-    margin-left: 150px;
+    margin-left: 100px;
  
 }
 
 .info-card1{
     border-top: 5px solid hsl(0, 78%, 62%);
     margin-top: -400px;
-    margin-left: 550px;
+    margin-left: 500px;
     
 }
 
 .info-card2{
     border-top: 5px solid hsl(34, 97%, 64%);
-    margin-left: 550px;
+    margin-left: 500px;
     margin-top: 30px;
 }
 
 .info-card3{
     border-top: 5px solid hsl(212, 86%, 64%);
-    margin-left: 950px;
+    margin-left: 900px;
     margin-top: -500px;
 }
 
