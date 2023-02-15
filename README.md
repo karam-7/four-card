@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:(https://github.com/karam-7/article-preview)
-- Live Site URL:(https://karam-7.github.io/article-preview/)
+- Solution URL:(https://github.com/karam-7/four-card)
+- Live Site URL:(https://karam-7.github.io/four-card/)
 
 ## My process
 
