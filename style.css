@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    min-height: 100vh;
+    font-family: 'Poppins';
+    background-color:  hsl(0, 0%, 98%);
+    justify-content: center;
+    text-align: center;
+}
+
+                                   /* START CARD AREA  */
+.card{
+    margin-top: 100px;
+}
+
+.info{
+    width: 500px;
+    margin-left: 550px;
+}
+
+.info-h1{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35px;
+    font-style:normal;
+    color: hsl(229, 6%, 66%);
+}
+
+.info-h2{
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 35px;
+    font-style:normal;
+    color: hsl(234, 12%, 34%);
+    margin-top: 20px;
+}
+
+.info-para{
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 28px;
+    font-style:normal;
+    color: hsl(229, 6%, 66%);
+}
+
+                            /* END CARD AREA  */
+
+                            /* START FOUR AREA  */
+         
+                            
+.four{
+    margin-left: 50px;
+}                            
+
+.four-card{
+    width: 380px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+    text-align: start;
+    height: 280px;
+    padding: 30px;   
+}
+
+                           /* START 2 CLASS OF FOUR AREA  */
+
+.info-card{
+    border-top: 5px solid hsl(180, 62%, 55%);
+    margin-top: 250px;
+    margin-left: 150px;
+ 
+}
+
+.info-card1{
+    border-top: 5px solid hsl(0, 78%, 62%);
+    margin-top: -400px;
+    margin-left: 550px;
+    
+}
+
+.info-card2{
+    border-top: 5px solid hsl(34, 97%, 64%);
+    margin-left: 550px;
+    margin-top: 30px;
+}
+
+.info-card3{
+    border-top: 5px solid hsl(212, 86%, 64%);
+    margin-left: 950px;
+    margin-top: -500px;
+}
+
+                                /* END 2 CLASS OF FOUR AREA  */
+
+.four-h2{
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 35px;
+    font-style:normal;
+    color: hsl(234, 12%, 34%);
+    margin-top: 20px;
+}
+
+.four-para{
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 28px;
+    font-style:normal;
+    color: hsl(229, 6%, 66%);
+    width: 300px;
+}
+
+
+.four-img{
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+                             /* END FOUR AREA  */
+
+                            /* Start Footer Area  */
+
+.foot{
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: hsl(217, 19%, 35%);
+    margin-top: 245px;
+    width: 500px;
+    margin-left: 35%;
+    margin-bottom: 20px;
+}
+
+.foot a{
+    color: hsl(228, 45%, 44%);
+}
+
+                            /* END Footer Area  */
+
+                            /* START MEDIA QUERRY */ 
+
+@media screen and (max-width:768px){
+    .info{
+        margin-left: 100px;
+        text-align: start;
+    }
+
+    .info-para{
+        width: 300px;
+    }
+
+    .four{
+        margin: 100px;
+        margin-left: 100px;
+        text-align: start;
+        justify-content: start;
+    }
+
+    .info-card{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .info-card1, .info-card2, .info-card3{
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+
+    .foot{
+       margin-left: 50px;
+    }
+}                            
+
+                            /* END MEDIA QUERRY */
